@@ -1,17 +1,15 @@
-###tidyData.txt
+###tidyData.txt  
+The tidyData.txt table contains (81) fields. This table is a result of computing data from 
 
-  The tidyData.txt table contains (81) fields. 
-  This table is a result of computing data from 
----   
-  "Human Activity Recognition Using Smartphones Dataset" Version 1.0 by    
----    
- Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.    
- Smartlab - Non Linear Complex Systems Laboratory    
- DITEN - University degli Studi di Genova.    
- Via Opera Pia 11A, I-16145, Genoa, Italy.    
- activityrecognition@smartlab.ws    
- www.smartlab.ws    
----    
+        Human Activity Recognition Using Smartphones Dataset Version 1.0 by    
+        Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.    
+        Smartlab - Non Linear Complex Systems Laboratory    
+        DITEN - University degli Studi di Genova.    
+        Via Opera Pia 11A, I-16145, Genoa, Italy.    
+        activityrecognition@smartlab.ws  
+        www.smartlab.ws    
+ 
+
 Start with train data, test data, subject-label and activity-label from the data set.    
 Then stiched the train data and test data together.    
 Then added subjects label.    
@@ -21,7 +19,8 @@ Then summarise each measurements base on  activity and subject.
 1. subjects: integer(1) Lists the subjects label of this experiment by integer indicator.               
 2. activities: character(18) List the activity that this subject performed in these observations. 
 
-From field 3 to 81 are the list of mean values of each variable from one subject through observations. These fields are mean of normalized and bounded within [-1,1] data.
+From field 3 to 81 are the list of mean values of each variable from observasions of one subject.  
+Unit of these fields are mean of normalized and bounded within [-1,1] data.
 
 3. tBodyAcc-mean()-X: numeric()    
 4. tBodyAcc-mean()-Y: numeric() 
