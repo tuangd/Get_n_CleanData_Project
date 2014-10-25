@@ -1,4 +1,4 @@
-Name: Codebook.txt
+Name: Codebook.md
 By: Tuang Dheandhanoo
 "subjects"                        
 "activities"                     
