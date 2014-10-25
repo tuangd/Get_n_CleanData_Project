@@ -20,7 +20,7 @@ Then summarise each measurements base on  activity and subject.
 1. subjects: integer(1) Lists the subjects label of this experiment by integer indicator.               
 2. activities: character(18) List the activity that this subject performed in these observations. 
 
-From field 3 to 81 are the list of mean values of each variable from one subject through observations.
+From field 3 to 81 are the list of mean values of each variable from one subject through observations. These fields are mean of normalized and bounded within [-1,1] data.
 
 3. tBodyAcc-mean()-X: numeric()    
 4. tBodyAcc-mean()-Y: numeric() 
