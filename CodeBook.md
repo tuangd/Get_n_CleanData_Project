@@ -1,18 +1,19 @@
 ###tidyData.txt
+
 The tidyData.txt table contains (81) fields. 
 This table is a result of computing data from 
-==================================================================    
+---   
 "Human Activity Recognition Using Smartphones Dataset" Version 1.0 by    
-==================================================================    
+---    
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.    
 Smartlab - Non Linear Complex Systems Laboratory    
 DITEN - Universitเ degli Studi di Genova.    
 Via Opera Pia 11A, I-16145, Genoa, Italy.    
 activityrecognition@smartlab.ws    
 www.smartlab.ws    
-==================================================================    
-We use from the data set, train data, test data, subject-label and activity-label.    
-This table stiched the train data and test data together.    
+---    
+Start with train data, test data, subject-label and activity-label from the data set.    
+Then stiched the train data and test data together.    
 Then added subjects label.    
 Then added activities label.    
 Then summarise each measurements base on  activity and subject.   
