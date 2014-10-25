@@ -16,12 +16,11 @@ Then added subjects label.
 Then added activities label.    
 Then summarise each measurements base on  activity and subject.   
 
+noted: From field 3 to 81 are the list of mean values of each variable from observasions of one subject.  
+Unit of these fields(3-81) are mean of normalized and bounded within [-1,1] data.
+
 1. subjects: integer(1) Lists the subjects label of this experiment by integer indicator.               
 2. activities: character(18) List the activity that this subject performed in these observations. 
-
-From field 3 to 81 are the list of mean values of each variable from observasions of one subject.  
-Unit of these fields are mean of normalized and bounded within [-1,1] data.
-
 3. tBodyAcc-mean()-X: numeric()    
 4. tBodyAcc-mean()-Y: numeric() 
 5. tBodyAcc-mean()-Z: numeric() 
