@@ -3,8 +3,9 @@
 ## Description: This will be an R script for Getting and Cleaning Data Course Project
 ##      
 ## 
-##loading dplyr
+##loading dplyr and stringr
 library(dplyr)
+library(stringr)
 
 ##start loading files that we need
 
