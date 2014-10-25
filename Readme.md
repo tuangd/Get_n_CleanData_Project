@@ -1,5 +1,5 @@
 ### ReadMe.md
-### version 0.7
+##### version 0.7
 
 
 These are the steps that I use to prepare tidyData.txt
@@ -16,17 +16,18 @@ These are the steps that I use to prepare tidyData.txt
         rbind two *activity-labels* from train and test dataset into one  
         cbind subjects to *Data1*  
         cbind activitylabel to *Data1*  
-4. Prepare names for our *Data1* by add *subjects* and *activities* to the last two rows of *features*
+4. Prepare names for our *Data1* by add *subjects* and *activities* 
+to the last two rows of *features*
 5. Then use *features* to rename all the column names in *Data1*
 6. Then we will prepare a vector that contains only names that we  want  
-* Extract *colNames* from *features* column2  
-* Then select only names that we want using grepl  
+        Extract *colNames* from *features* column2  
+        Then select only names that we want using grepl  
 7. Use *colNames* to subset *Data1* to select only columns that we want
 8. Time to rename those activities,  
-* I use mutate and str_replace_all to rename them   
-* By pull the right label from *activities-labels*  
+        I use mutate and str_replace_all to rename them   
+        By pull the right label from *activities-labels*  
 9. Step 5 time to summarise the data base on subjects and activities  
-* Find mean() of the variables  
-* Use group_by() then summarise_each() with mean()  
-* Create new variable tidyData.  
+        Find mean() of the variables  
+        Use group_by() then summarise_each() with mean()  
+        Create new variable tidyData.  
 10. Use write.table to write tidyData to tidyData.txt
